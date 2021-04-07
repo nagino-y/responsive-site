@@ -36,6 +36,7 @@
   padding: 0 10px;
   text-align: center;
   color: #fff;
+  /* 動かした際に固定する↓ */
   transform: translateY(-50%);
 }
 
@@ -57,3 +58,37 @@
 .info:hover {
   color: #808080;
 } 
+
+.about_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+
+}
+.work_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work_conteiner {
+
+}
+
+.work_content1 {
+  background-image: url(img/about_01.jpg);
+}
+
+
+
+.blog_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
