@@ -124,7 +124,6 @@
 
 
 .work_title {
-
   font-size: 30px;
   color: #5a5a5a;
   letter-spacing: 2px;
@@ -152,8 +151,7 @@
 }
 
 .blog_title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-size: 30px;
+  color: #5a5a5a;
+  letter-spacing: 2px;
 }
