@@ -134,20 +134,45 @@
   height: auto;
 }
 
-.work_content1 {
-  background-image: url(img/about_01.jpg);
+.work_content {
+  display: inline-block;
+  text-align: center;
 }
 
-.work_content2 {
-  background-image: url(img/about_02.jpg);
+.work_content_title {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
-.work_content3 {
-  background-image: url(img/about_03.jpg);
+.work_content_text {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #8a8a8a;
 }
 
-.work_content4 {
-  background-image: url(img/about_04.jpg);
+.work_content_icon1 {
+  background-image: url(img/icon_01.png);
+}
+
+.work_content_icon2 {
+  background-image: url(img/icon_02.png);
+}
+
+.work_content_icon3 {
+  background-image: url(img/icon_03.png);
+}
+
+.work_content_icon4 {
+  background-image: url(img/icon_04.png);
+}
+
+.work_content_icon5 {
+  background-image: url(img/icon_05.png);
+}
+
+.work_content_icon6 {
+  background-image: url(img/icon_06.png);
 }
 
 .blog_title {
