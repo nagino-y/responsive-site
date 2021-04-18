@@ -148,7 +148,7 @@
 
 /* work */
 .work_content_main {
-  
+
 }
 
 .work_title {
@@ -211,6 +211,19 @@
   letter-spacing: 2px;
 }
 
+.blog_content_title {
+  font-size: 20px;
+  color: #5a5a5a;
+}
+
+.blog_button_link {
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 3px;
+  background-color: #fcc72c;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
 /* SP-site */
 
@@ -251,6 +264,30 @@
   width: 60%;
   height: 300px;
   margin-top: 30px;
+}
+
+.blog_content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.blog_content_text {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #848484;
+}
+
+.blog_continer > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.blog_continer > li:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 }
