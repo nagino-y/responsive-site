@@ -36,6 +36,7 @@
   padding: 0 10px;
   text-align: center;
   color: #fff;
+  line-height: 1.8;
   /* 動かした際に固定する↓ */
   transform: translateY(-50%);
 }
@@ -288,6 +289,17 @@
 
 .blog_continer > li:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.blog_button_link {
+  padding: 15px 20px;
+  transition: 0.3s ;
+  text-decoration: none;
+
+}
+
+.blog_button_link:hover {
+  background-color: #666;
 }
 
 }
