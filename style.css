@@ -64,7 +64,7 @@
 } 
 
 .content {
-  padding: 100px 50px;
+  padding: 100px 15px;
 }
 
 .content_box {
@@ -110,51 +110,24 @@
   color: #848484;
 }
 
-.about_conteiner {
-  /* border-radius: 10px;
+.about_continer > li {
+  border-radius: 10px;
   overflow: hidden;
   background-size: cover;
-  background-position: center; */
+  background-position: center;
 }
 
 .about_content1 {
   background-image: url("img/about_01.jpg");
-  background-size: cover;
-  border-radius: 10px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  /* height: 300px;
-  width: 60%; */
 }
 .about_content2 {
   background-image: url("img/about_02.jpg");
-  background-size: cover;  border-radius: 10px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  /* height: 300px;
-  width: 30%; */
 }
 .about_content3 {
   background-image: url("img/about_03.jpg");
-  background-size: cover;
-  border-radius: 10px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  /* height: 300px;
-  width: 30%; */
 }
 .about_content4 {
   background-image: url("img/about_04.jpg");
-  background-size: cover;
-  border-radius: 10px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  /* height: 300px;
-  width: 60%; */
 }
 
 /* work */
@@ -231,18 +204,6 @@
   padding: 10px 20px;
 }
 
-/* .top_box_sp {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  width: 100%;
-  padding: 10px 20px;
-} */
-
 .top_hamburger {
   position: absolute;
   top: 15px;
@@ -275,6 +236,35 @@
   font-size: 40px;
 } 
 
+.about_continer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.about_continer > li {
+  width: 100vh;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.work_conteiner {
+  display: flex;
+  /* flex: wrap; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.work_conteiner > li {
+  margin-top: 40px;
+}
+
+.blog_button {
+  display: block;
+  padding: 15px 0;
+  text-align: center;
+}
 
 }
 
@@ -300,6 +290,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 
 .about_content1 {
   width: 60%;
