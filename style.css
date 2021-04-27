@@ -13,7 +13,6 @@
 
 .main_visual {
   width: 100%;
-  /* height: 100vh; */
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -36,7 +35,6 @@
   position: absolute;
   top: 50%;
   width: 100%;
-  /* padding: 0 10px; */
   text-align: center;
   color: #fff;
   line-height: 1.8;
@@ -69,7 +67,7 @@
 } 
 
 .content {
-  padding: 100px 15px;
+  padding: 100px 50px;
 }
 
 .content_box {
@@ -115,6 +113,10 @@
   color: #848484;
 }
 
+.about_continer {
+  margin-top: 50px;
+}
+
 .about_continer > li {
   border-radius: 10px;
   overflow: hidden;
@@ -122,19 +124,19 @@
   background-position: center;
 }
 
-.about_content1 {
+.about_content:first-child {
   background-image: url("img/about_01.jpg");
 }
 
-.about_content2 {
+.about_content:nth-child(2) {
   background-image: url("img/about_02.jpg");
 }
 
-.about_content3 {
+.about_content:nth-child(3) {
   background-image: url("img/about_03.jpg");
 }
 
-.about_content4 {
+.about_content:last-child {
   background-image: url("img/about_04.jpg");
 }
 
@@ -146,13 +148,11 @@
 }
 
 .work_conteiner {
-  /* width: 100%; */
   height: auto;
   margin-top: 60px;
 }
 
 .work_content {
-  /* display: inline-block; */
   text-align: center;
   padding: 20px 0;
   width: 33%;
@@ -301,12 +301,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
-  /* align-items: center; */
-  /* padding: 50px; */
-}
-
-.work_content {
-  /* width: 100%; */
 }
 
 .work_content_icon {
@@ -320,23 +314,23 @@
   align-items: center;
 }
 
-.about_content1 {
+.about_content:first-child {
   width: 60%;
   height: 300px;
 }
 
-.about_content2 {
+.about_content:nth-child(2) {
   width: 35%;
   height: 300px;
 }
 
-.about_content3 {
+.about_content:nth-child(3) {
   width: 35%;
   height: 300px;
   margin-top: 30px;
 }
 
-.about_content4 {
+.about_content:last-child {
   width: 60%;
   height: 300px;
   margin-top: 30px;
@@ -363,14 +357,6 @@
 
 .blog_continer > li:nth-child(even) {
   flex-direction: row-reverse;
-}
-
-.blog_content_title {
-  text-align: center;
-}
-
-.blog_content_text {
-  text-align: center;
 }
 
 .blog_button {
